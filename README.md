@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/Ikenna1o2/UdacityND_Project4_Microservices/tree/main.svg?style=svg)](https://circleci.com/gh/Ikenna1o2/UdacityND_Project4_Microservices/tree/main)
 
 ## Project Overview
 
@@ -48,3 +49,37 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Project Tasks:
+
+## Create the Docker file
+    => Specify a working directory.
+    => Copy the app.py source code to that directory
+    => Install any dependencies in requirements.txt (do not delete the commented # hadolint ignore statement).
+    => Expose a port when the container is created; port 80 is standard.
+    => Specify that the app runs at container launch.
+    
+    
+## Run the container and make predictions
+    => Build the docker image from the Dockerfile
+    => Run the containerized Flask app; publish the container’s port(80) to a host port(8000)
+    => Make the pricing prediction.
+    => Add log statement
+    
+ ## Upload the Docker Image
+    => Successfully authenticate and tag the docker image , once done upload the docker image.
+    
+ ## Configure Kubernetes to Run locally
+    => Create a kubernetes cluster using minikube and kubectl.
+    
+ ## Deploy with Kubernetes and save Output Logs
+    => Deploy application on the newly created Kubernetes cluster
+    => Run the Docker Container
+    => Forward the container port (80) to host port(8000)
+    => Make a prediction and capture the logs.
+    
+ ## Delete Cluster
+ 
+ ## Integrate project with CircleCI
+    => Create a config file and run the build on circleCI.
+    
