@@ -1,5 +1,5 @@
 <include a CircleCI status badge, here>
-[![CircleCI](https://circleci.com/gh/Ikenna1o2/NDUdacity_Project4_Microservices/tree/main.svg?style=svg)](https://circleci.com/gh/Ikenna1o2/NDUdacity_Project4_Microservices/tree/main)
+[![CircleCI](https://circleci.com/gh/Ikenna1o2/NDUdacity_Project4_Microservices/tree/master.svg?style=svg)](https://circleci.com/gh/Ikenna1o2/NDUdacity_Project4_Microservices/tree/master)
 
 ## Project Overview
 
